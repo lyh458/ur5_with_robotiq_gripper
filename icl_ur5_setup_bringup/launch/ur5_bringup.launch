@@ -39,7 +39,7 @@
 
  
 <!-- robot model -->
-  <include unless="$(arg with_gripper)" file="$(find ur_description)/launch/ur5_upload.launch">
+  <include unless="$(arg with_gripper)" file="$(find ur_description_old)/launch/ur5_upload.launch">
     <arg name="limited" value="$(arg limited)"/>
   </include>
   <include if="$(arg with_gripper)" file="$(find icl_ur5_setup_description)/launch/ur5_gripper_upload.launch">

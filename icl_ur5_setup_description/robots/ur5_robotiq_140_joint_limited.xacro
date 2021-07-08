@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <robot xmlns:xacro="http://ros.org/wiki/xacro" name="ur5_gripper">
   <!-- include macros for UR5 and the Robotiq eef model -->
-  <xacro:include filename="$(find ur_description)/urdf/common.gazebo.xacro" />
-  <xacro:include filename="$(find ur_description)/urdf/ur5.urdf.xacro" />
+  <xacro:include filename="$(find ur_description_old)/urdf/common.gazebo.xacro" />
+  <xacro:include filename="$(find ur_description_old)/urdf/ur5.urdf.xacro" />
   <xacro:include filename="$(find icl_ur5_setup_description)/urdf/robotiq_arg2f_140_model_macro.xacro" />
   <xacro:include filename="$(find icl_ur5_setup_description)/urdf/robotiq_fts300.urdf.xacro" />
   
