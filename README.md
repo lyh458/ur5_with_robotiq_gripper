@@ -2,6 +2,19 @@
 Author: Yuxiang Gao and Yeping Wang
 
 ---
+
+This branch is for old version of [ur_description](https://github.com/ros-industrial/universal_robot/tree/kinetic-devel/ur_description), and the name of mimic joint plugin is update with the package [roboticsgroup_upatras_gazebo_plugins](https://github.com/roboticsgroup/roboticsgroup_upatras_gazebo_plugins). If you are using the newer version ros packages of UR and don't want to downgrade, you can try this branch.
+
+BTW, this package have been tested in simulation, but for the real robot bringup, you may need to modify the [ur5_bringup.launch](https://github.com/lyh458/ur5_with_robotiq_gripper/blob/old-ur-description/icl_ur5_setup_bringup/launch/ur5_bringup.launch), and which is not tested.
+
+__Usage__
+
+- git clone [this branch](https://github.com/lyh458/ur5_with_robotiq_gripper)
+- git clone [the old version of ur_description](https://github.com/lyh458/ur_description_old)
+- git clone [roboticsgroup_upatras_gazebo_plugins](https://github.com/roboticsgroup/roboticsgroup_upatras_gazebo_plugins)
+- catkin_make 
+
+---
 __ROS Version__ : Kinetic
 
 __Dependence__
